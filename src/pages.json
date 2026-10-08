@@ -1,0 +1,50 @@
+[
+  {
+    "file": "index.html",
+    "label": "home",
+    "tab": "index",
+    "visible": true
+  },
+  {
+    "file": "agent.html",
+    "label": "nodavex agent",
+    "tab": "agent",
+    "visible": true
+  },
+  {
+    "file": "fleet.html",
+    "label": "nodavex fleet",
+    "tab": "fleet",
+    "visible": true
+  },
+  {
+    "file": "features.html",
+    "label": "features",
+    "tab": "features",
+    "visible": true
+  },
+  {
+    "file": "docs-connections.html",
+    "label": "documentation",
+    "tab": "documentation",
+    "visible": false
+  },
+  {
+    "file": "docs-monitoring.html",
+    "label": "documentation",
+    "tab": "documentation",
+    "visible": false
+  },
+  {
+    "file": "docs-notifications.html",
+    "label": "documentation",
+    "tab": "documentation",
+    "visible": false
+  },
+  {
+    "file": "documentation.html",
+    "label": "documentation",
+    "tab": "documentation",
+    "visible": false
+  }
+]
