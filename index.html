@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="color-scheme" content="dark">
+    <title>Nodavex</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="brand">
+      <span class="coming-soon brand-status">Coming Soon</span>
+      <img src="public/images/logo/animated/logo-2.svg" alt="" aria-hidden="true">
+      <h1><a href="index.html" aria-label="nodavex home">nodavex</a></h1>
+    </header>
+    <nav class="navigation" aria-label="Main navigation">
+      <a href="agent.html" data-nav="agent">nodavex agent</a>
+      <a href="index.html#fleet" data-nav="fleet">nodavex fleet</a>
+      <a href="clients.html">clients</a>
+      <a href="index.html#install">getting started</a>
+      <a href="features.html">features</a>
+      <a href="documentation.html">documentation</a>
+    </nav>
+    <main>
+      <section class="introduction" aria-label="About nodavex">
+        <p>nodavex is a fully open-source service for personal and professional server monitoring. From a home server to a fleet of machines, keep track of resource usage, review notifications and manage your infrastructure from one place. Explore the code, adapt it to your needs and contribute to a monitoring platform built for an open community.</p>
+      </section>
+      <section id="agent" class="direct-connect" aria-labelledby="direct-connect-title">
+        <div class="direct-connect-content">
+          <img class="direct-connect-image" src="public/images/grid/direct.svg" alt="Direct connection to the nodavex server">
+          <div class="direct-connect-description">
+            <h2 id="direct-connect-title">nodavex agent</h2>
+            <p>Connect directly to your nodavex server from the nodavex app for macOS, iPadOS, iOS or the web app. The agent provides a connection to an individual server, giving you a focused view of the machine you want to monitor and control.</p>
+            <p>Check disk space, CPU and memory usage, and upload and download traffic from the Home dashboard. Review server notifications to identify resource pressure and events that need attention, with access to Actions and Settings from the same app.</p>
+          </div>
+        </div>
+      </section>
+      <section id="fleet" class="direct-connect" aria-labelledby="hub-title">
+        <div class="direct-connect-content hub-content">
+          <div class="direct-connect-description">
+            <h2 id="hub-title">nodavex fleet</h2>
+            <p>Connect to nodavex fleet for a central view of multiple servers at the same time. Fleet brings server monitoring and control together, so you can oversee your infrastructure through one connection from your device.</p>
+            <p>Compare disk usage, CPU and memory consumption, network traffic and unread notification counts across your servers. The expanded dashboard keeps each server’s metrics together, helping you spot differences in resource usage and decide where to focus your attention.</p>
+            <p>Use the notifications view to review server events with descriptions, timestamps and severity levels. Group and sort updates to make routine activity and urgent issues easier to navigate as your fleet grows.</p>
+          </div>
+          <img class="direct-connect-image" src="public/images/grid/hub.svg" alt="Multiple nodavex servers connected to the nodavex fleet">
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
