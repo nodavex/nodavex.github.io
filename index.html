@@ -38,7 +38,7 @@
         <h1>Your platform.<br><em>One view.</em></h1>
         <p class="lede">Monitor hosts, operate Kubernetes, manage containers, investigate logs, query databases and automate routine work from one private control surface.</p>
         <div class="hero-actions"><a class="button primary" href="#extensions">Explore extensions</a><a class="button" href="#screens">See the interface</a></div>
-        <dl class="hero-facts"><div><dt>5 sec</dt><dd>live refresh</dd></div><div><dt>13</dt><dd>extensions</dd></div><div><dt><a href="#integrations" aria-label="3 integrations">3</a></dt><dd>integrations</dd></div><div><dt>Local</dt><dd>data ownership</dd></div></dl>
+        <dl class="hero-facts"><div><dt>5 sec</dt><dd>live refresh</dd></div><div><dt>13</dt><dd>extensions</dd></div><div><dt><a href="#integrations" aria-label="10 integrations">10</a></dt><dd>integrations</dd></div><div><dt>Local</dt><dd>data ownership</dd></div></dl>
       </div>
       <div class="hero-visual">
         <div class="orbit"><img src="assets/logo-animated.svg" alt=""><span>NODAVEX</span></div>
@@ -93,7 +93,7 @@
         <p class="section-index">03 · Integrations</p>
         <div>
           <h2 id="integrations-title">Connect your networks, hosts, and storage.</h2>
-          <p>Use Connections Manager to bring UniFi network monitoring, remote Linux host metrics, and Synology NAS data into your Nodavex dashboards and Worktop.</p>
+          <p>Use Connections Manager to bring metrics from your networks, hosts, storage, and self-hosted apps into your Nodavex dashboards and Worktop.</p>
         </div>
       </div>
       <div class="integrations-grid reveal">
@@ -124,8 +124,71 @@
             <li>Add widgets to Dashboard and Worktop</li>
           </ul>
         </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01m4-11h6m-6 11h6"/></svg>Proxmox VE</h3>
+          <p>Connect Proxmox VE in Connections Manager to monitor your virtualization environment.</p>
+          <ul>
+            <li>Track node health, CPU, and memory</li>
+            <li>See virtual machine and LXC container counts</li>
+            <li>Monitor storage capacity by node</li>
+          </ul>
+        </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v14H4Zm0 11 5-5 4 4 3-3 4 4M15 9h.01"/></svg>Immich</h3>
+          <p>Monitor your photo and video library.</p>
+          <ul>
+            <li>Photo and video counts</li>
+            <li>Storage usage</li>
+            <li>Background jobs and server version</li>
+          </ul>
+        </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v14m-4-4 4 4 4-4m6 8V7m-4 4 4-4 4 4"/></svg>Deluge</h3>
+          <p>Monitor torrent activity and available disk space.</p>
+          <ul>
+            <li>Upload and download rates</li>
+            <li>Torrents by state and remaining bytes</li>
+            <li>Connections and free space</li>
+          </ul>
+        </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 8 3v5c0 5-4 8-8 10-4-2-8-5-8-10V6Zm-3 9 2 2 4-4"/></svg>Pi-hole v6</h3>
+          <p>Monitor DNS activity and blocking.</p>
+          <ul>
+            <li>DNS queries and query types</li>
+            <li>Percentage of queries blocked</li>
+            <li>Clients and blocking status</li>
+          </ul>
+        </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 8 4v10l-8 4-8-4V7Zm-8 4 8 4 8-4m-8 4v10"/></svg>Harbor</h3>
+          <p>Monitor your container registry.</p>
+          <ul>
+            <li>Projects and repositories</li>
+            <li>Registry storage where permissions allow</li>
+            <li>Component health</li>
+          </ul>
+        </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 13h4v7H4Zm12 0h4v7h-4Z"/></svg>Audiobookshelf</h3>
+          <p>Track the contents and size of your audio libraries.</p>
+          <ul>
+            <li>Library item counts</li>
+            <li>Authors and genres</li>
+            <li>Audio duration and storage</li>
+          </ul>
+        </article>
+        <article>
+          <h3><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h5a4 4 0 0 1 4 4v11a4 4 0 0 0-4-4H3Zm18 0h-5a4 4 0 0 0-4 4v11a4 4 0 0 1 4-4h5Z"/></svg>Kavita</h3>
+          <p>Track the libraries and collections visible to your account.</p>
+          <ul>
+            <li>Visible libraries and series</li>
+            <li>Volume, chapter, and file counts</li>
+            <li>Collection size</li>
+          </ul>
+        </article>
       </div>
-      <p class="integration-notice">Nodavex is an independent project and is not affiliated with, sponsored by, or endorsed by Ubiquiti or Synology. Third-party names and logos belong to their respective owners and identify compatible products.</p>
+      <p class="integration-notice">Nodavex is an independent project and is not affiliated with, sponsored by, or endorsed by the third-party projects and companies listed above. Third-party names and logos belong to their respective owners.</p>
     </section>
 
     <section class="screens-section" id="screens">
