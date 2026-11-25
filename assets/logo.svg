@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
-<title id="title">Nodavex circular silver ribbons</title>
-<desc id="description">Five flowing silver ribbons forming a circular halo on a transparent background.</desc>
-<defs><linearGradient id="silver" x1="0%" y1="5%" x2="100%" y2="95%"><stop offset="0" stop-color="#565b61" stop-opacity=".35"/><stop offset=".28" stop-color="#d7dadd" stop-opacity=".85"/><stop offset=".5" stop-color="#92979d" stop-opacity=".55"/><stop offset=".72" stop-color="#f1f2f3" stop-opacity=".9"/><stop offset="1" stop-color="#61666c" stop-opacity=".35"/></linearGradient></defs>
+<title id="title">Nodavex circular Aurora ribbons</title>
+<desc id="description">Five flowing Aurora ribbons forming a circular halo on a transparent background.</desc>
+<defs><linearGradient id="silver" x1="0%" y1="5%" x2="100%" y2="95%"><stop offset="0" stop-color="#148a72" stop-opacity=".35"/><stop offset=".28" stop-color="#7ebfb1" stop-opacity=".85"/><stop offset=".5" stop-color="#8e9ddb" stop-opacity=".55"/><stop offset=".72" stop-color="#c9e4df" stop-opacity=".9"/><stop offset="1" stop-color="#c094cb" stop-opacity=".35"/></linearGradient></defs>
 
 
 <g class="still" fill="url(#silver)" fill-rule="evenodd">
